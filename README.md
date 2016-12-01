@@ -1,11 +1,12 @@
 ### Quick Start for a local Python-Flask server with a PostgreSQL database (using Flask-SQLAlchemy ORM).
 
-#### To run:
+#### To run (from the command line):
 1. get this repo onto your machine, by either:
   - cloning the repo:
     - with SSH: `git clone git@github.com:AnliYang/quick-flask-example.git`
     - with HTTPS: `git clone https://github.com/AnliYang/quick-flask-example.git`
   - or downloading it from GitHub: [https://github.com/AnliYang/quick-flask-example]
+- navigate into the new directory: `cd quick-flask-example`
 - create your virtual environment: `virtualenv env`
   - note: requires [virtualenv](https://virtualenv.pypa.io/) to be installed
 - activate your virtual environment: `source env/bin/activate`

@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template
-from model import connect_to_db, db
+from model import db, connect_to_db
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get("FLASK_SECRET_KEY", "ABCDEF")
